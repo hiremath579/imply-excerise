@@ -1,0 +1,5 @@
+sqlldr amith/amith control=control.txt log=..\data\yellow_tripdata_2023-12.log bad=..\data\yellow_tripdata_2023-12.bad data=..\data\yellow_tripdata_2023-12.csv direct=true parallel=true skip=1
+
+sqlldr amith/amith control=control.txt log=..\data\yellow_tripdata_2024-01.log bad=..\data\yellow_tripdata_2024-01.bad data=..\data\yellow_tripdata_2024-01.csv direct=true parallel=true skip=1
+
+sqlldr amith/amith control=control.txt log=..\data\yellow_tripdata_2024-02.log bad=..\data\yellow_tripdata_2024-02.bad data=..\data\yellow_tripdata_2024-02.csv direct=true parallel=true skip=1
